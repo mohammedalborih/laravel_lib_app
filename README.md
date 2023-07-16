@@ -1,2 +1,2 @@
 # laravel_lib_app
- This  is a library managment system
+ This is library managment system
