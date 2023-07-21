@@ -17,5 +17,8 @@ use App\Http\Controllers\API\CommentController;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-
+// redirect data from comments datbase to API\CommentController
 Route::apiResource('comments', 'API\CommentController');
+
+// redirect data from user datbase to API\UserController
+Route::apiResource('user', 'API\UserController');
